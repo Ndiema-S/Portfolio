@@ -18,10 +18,8 @@ nav{
 .landing{
     display: flex;
     justify-content:space-around;
-    
-    height: 80vh;
+    height: 68vh;
 
- 
 }
 
 .nav-links{
@@ -40,11 +38,12 @@ nav{
 .nav-links li a{
 
 color: black;
-text-decoration: none;
-font-size: 16px;
 font-family: 'Antonio', sans-serif;
 
+}
 
+#links{
+   font-size: x-large; 
 }
 
 
@@ -96,41 +95,96 @@ pointer-events: all;
     width: 100%;
     display: flex;
     justify-content:center;
-    height:20rem;
+    height:34rem;
     padding: 20px;
+    
 
 }
 
 .card{
     margin: 10px;
     width: 25%;
-    background: #C27E79;
     box-shadow: 1rem;
     height: 30rem;
     border-radius: 5%;
+    align-items: center;
+    box-shadow:0.3px 1px 1px 1px;
+    cursor: pointer;
+    
 }
 
-.socials{
+.card :hover{
+    color: #d5a499;
+}
+
+/*.socials{
 
     width: 90%;
     height: 10rem;
-    background: #C27E79;
+    background:green;
+}*/
+
+.fa-regular{
+    background: white;
+    font-size: xx-large;
+    width: 95%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:5rem;
+    padding: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+}
+#h2 {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.fa-solid{
+
+    background:white;
+    font-size: xx-large;
+    width: 95%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:5rem;
+    padding: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+#description {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+
+
+}
+
+#notes{
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-size: larger; 
+    color: #C27E79; 
 }
     
-/*#A {
+.socials{
+    height: 30rem;
+    background: #C27E79;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 
-background: red;
 }
-
-#B {
-background: green;
-}
-
-#C {
-    background: orange;
-}
-
-#D{
-    background: skyblue;
-}
-*/
