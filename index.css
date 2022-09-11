@@ -16,6 +16,12 @@ nav {
     background: black;
     display: flex;
     
+}
+
+
+@media(max-width:600px){
+    .landing{width: 30%;
+    display: block;}
 
 }
 .portfolio{
@@ -26,17 +32,34 @@ nav {
     margin-right: auto;
     font-size: xx-large;
     color: white;
-    margin-left: 2rem;
+    margin-left: 5rem;
     
 
 }
 
+
+
 .landing {
+    margin-top: 20px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-around;
     height: 68vh;
 
+
 }
+
+@media(max-width:750px){
+    .landing                      {
+        display: block;
+        align-items: center;
+        justify-content: center;
+
+        }
+        .intro{
+            width: 32rem;
+        }
+    }
 
 .nav-links {
 
@@ -60,41 +83,7 @@ nav {
 }
 
 
-@media screen and (max-width:768px) {
 
-    .line {
-        width: 30px;
-        height: 3px;
-        background: black;
-        margin: 5px;
-    }
-
-    nav {
-        position: relative;
-    }
-
-    .hambagur {
-        position: absolute;
-        cursor: pointer;
-        right: 5%;
-        top: 50%;
-        transform: translate(-5%, -50%);
-        z-index: 2;
-    }
-
-    .nav-links {
-        position: fixed;
-        background:white;
-        height: 100vh;
-        flex-direction: column;
-
-
-    }
-
-    /*.nav-links.open{
-pointer-events: all;
-}*/
-}
 
 .intro {
     display: flex;
@@ -104,6 +93,10 @@ pointer-events: all;
     font-size: 2rem;
 
 
+}
+
+.img{
+    padding-bottom: 0;
 }
 .emphasis{
     font-size:4rem ;
@@ -150,7 +143,7 @@ pointer-events: all;
     justify-content: center;
     height: 34rem;
     padding: 20px;
-
+    
 
 }
 
@@ -164,6 +157,7 @@ pointer-events: all;
     box-shadow: 0.3px 1px 1px 1px;
     cursor: pointer;
     transition: color 1.5s;
+
 
 
 
@@ -305,5 +299,39 @@ pointer-events: all;
     align-items: center;
     color: black;
     font-size: large;
+
+}
+@media(max-width:1000px) {
+
+    .footer{
+    
+        display: block;
+        height: 100%;
+        margin-top: 30%;
+        justify-content: center;
+    }
+    .card{
+        width: 100%;
+    }
+.container{
+    margin-top: 70rem;
+}
+.quote{
+    font-size: 1.5rem;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    color: #C27E79;
+    padding-bottom: 10rem;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+.emphasis{
+    font-size: 2.5rem;
+}
 
 }
