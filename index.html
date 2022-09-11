@@ -12,13 +12,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-
-    <link rel="stylesheet" href="./index.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio&family=Poppins:wght@300&family=Qwitcher+Grypen:wght@700&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Antonio&family=Poppins:wght@300&family=Roboto:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <nav>
@@ -27,17 +31,27 @@
         <div class="line"></div>
         <div class="line"></div>
       </div>
+      <div class="portfolio"><h1>Portfolio.</h1></div>
       <ul class="nav-links">
         <li><a href="#" id="links"></a>About</li>
-        <li><a href="#" id="links"></a>Projects</li>
+        <li>
+          <a
+            href="https://ndiema-s.github.io/Phase-1-Independent--Project/"
+            id="links"
+          >
+          </a
+          >Projects
+        </li>
         <li><a href="#" id="links"></a>Contacts</li>
       </ul>
     </nav>
 
     <div class="landing">
       <div class="intro">
-        <h2>Sheilah Ndiema</h2>
-        <p>I am a web developer....</p>
+        <p>
+          <span class="emphasis">Hello! I am Sheilah & I am</span>
+          <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+        </p>
       </div>
       <div class="img">
         <img src="./img/port.jpg" alt="" />
@@ -53,7 +67,7 @@
           interactions.
         </p>
         <h3 id="notes">Things I enjoy designing</h3>
-        <p id="description">Web,mobile,Apps,logos</p>
+        <p id="description">Websites,mobile Apps,logos</p>
       </div>
       <div class="card" id="B">
         <i class="fa-solid fa-code"></i>
@@ -69,8 +83,8 @@
         <i class="fa-solid fa-keyboard"></i>
         <h2 id="h2">Technical writer</h2>
         <p id="description">
-          I research, complile, and write all-things tech and code.In an easy to
-          understand way.
+          I research, complile, and write engaging and iinformative content on
+          all-things tech and code.
         </p>
         <h3 id="notes">Resources</h3>
         <p id="description">MDN Web Docs, W3Schools,Udemy,Youtube,twitter</p>
@@ -89,7 +103,43 @@
         </p>
       </div>
     </div>
-    <div class="socials"></div>
+
+    <div class="container">
+      <div class="end">
+        <div class="socials">
+          <a class="social-icon" href="https://github.com/" target="_blank">
+            <i class="fa-brands fa-github"></i
+          ></a>
+
+          <a
+            class="social-icon"
+            href="https://www.linkedin.com/feed/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            class="social-icon"
+            href="https://twitter.com/home?lang=en"
+            target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            class="social-icon"
+            href="https://codepen.io/pen/tour/welcome/start"
+            target="_blank"
+            ><i class="fa-brands fa-codepen"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="quote">
+      ______________________________Living,learning & levelling up one day at a
+      time______________________________
+    </div>
+    <div class="empty">
+      Made with &#10084; by Sheilah Ndiema |&copy; 2022 All Rights Reserved.
+    </div>
   </body>
   <script src="./index.js"></script>
 </html>
