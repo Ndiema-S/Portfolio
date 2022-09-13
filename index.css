@@ -13,7 +13,7 @@ body {
 
 nav {
     height: 10vh;
-    background: black;
+    background:#021e39;
     display: flex;
     
 }
@@ -70,7 +70,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
-    color: #C27E79;
+    color: white;
     font-size: larger;
     
 
@@ -79,7 +79,7 @@ nav {
 
 #links {
     font-size: x-large;
-    color: #C27E79;
+    color: #021e39;
 }
 
 
@@ -115,12 +115,12 @@ nav {
 
 .intro p span.typed-text {
     font-weight: normal;
-    color: #C27E79;
+    color:#021e39;
 }
 .intro p span.cursor {
     display: inline-block;
     width: 3px;
-    background-color: #C27E79;
+    background-color:#021e39;
     margin-left: 0.1rem;
     animation:blink 1s infinite;
 }
@@ -129,11 +129,11 @@ nav {
 }
 
 @keyframes blink {
-    0% {background-color: #C27E79;}
-    49% {background-color: #C27E79;}
+    0% {background-color: #021e39;}
+    49% {background-color: #021e39;}
     50% {background-color: transparent;}
     99% {background-color: transparent;}
-    100% {background-color: #C27E79; }
+    100% {background-color: #021e39; }
 }
 
 
@@ -230,12 +230,12 @@ nav {
     padding: 20px;
     text-align: center;
     font-size: larger;
-    color: #C27E79;
+    color:#021e39;
 }
 
 .end {
     height: 15rem;
-    background: #C27E79;
+    background: #021e39;
     width: 90%;
     display: flex;
     align-items:center;
@@ -255,7 +255,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     margin-left: 4.3%;
-    background: #C27E79;
+    background: #021e39;
 }
 
 
@@ -288,12 +288,12 @@ nav {
     justify-content: center;
     align-items: center;
     background:black;
-    color: #C27E79;
+    color: #021e39;
     padding-bottom: 20rem;
 }
 .empty{
     height: 5vh;
-    background: #C27E79;
+    background:#021e39;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,7 +323,7 @@ nav {
     justify-content: center;
     align-items: center;
     background:black;
-    color: #C27E79;
+    color: #021e39;
     padding-bottom: 10rem;
     text-align: center;
     padding-left: 2px;
